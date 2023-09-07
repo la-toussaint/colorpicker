@@ -1,0 +1,157 @@
+:root {
+	
+body {
+margin: 0;
+display: grid;
+place-items: center;
+min-width: 320px;
+min-height: 100vh;
+}
+
+.color-header {
+position: fixed;
+display: grid;
+align-items: center;
+padding: 5px;
+max-height: 10%;
+min-height: 40px;
+background-color: #222222;
+color: white;
+
+
+}
+
+#navbar {
+ position: fixed;
+ display: grid;
+ padding: 5px;
+ max-height: 10%;
+ min-height: 40px;
+ background-color: #222222;
+ color: white;
+ display: flex;
+ align-items: center;
+}
+
+.colors-list {
+display: inline;	
+justify-content: space-evenly;
+/* transition: all 1s ease; */
+}
+
+
+.selectedcolor {
+ border: 3px solid black;
+}
+
+/* colors */
+.tomato { 
+display: grid;	
+width: 50px;
+height: 50px;
+border-radius: 50%;
+vertical-align: middle;
+vertical-align: middle;
+fill: tomato;
+border:onclick #000000;	
+}
+
+.orange { 
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   vertical-align: middle;
+   background-color: #eb6b56;;
+   border-radius: 50%;
+   border:onclick #000000;	
+   } 
+
+.goldenrod { 
+   width: 50px;
+   height: 50px;
+   vertical-align: middle;
+   background-color: goldenrod;
+   border:onclick #000000;	
+}	
+
+.green { 
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   vertical-align: middle;
+   
+   fill: #228B22;
+   border:onclick #000000;	
+}
+ 
+.blue { 
+width: 50px;
+height: 50px;
+border-radius: 50%;
+vertical-align: middle;
+fill: #0072B5;
+border:onclick #000000;	
+
+}
+
+.violet { 
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   vertical-align: middle;
+   fill:  #462446;
+   border:onclick #000000;
+}
+
+.black { 
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   vertical-align: middle;
+   fill:  #222222;
+   border:onclick antiquewhite;
+}
+
+.antiquewhite { 
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   vertical-align: middle;
+   fill:  antiquewhite;
+  
+}
+
+.antiquewhite.antiquewhite:onclick {
+	
+		border-color: #646cff;	
+	
+}
+
+
+h2 {
+font-size: 3.2em;
+line-height: 1.1;
+}
+
+button {
+border-radius: 8px;
+border: 1px solid transparent;
+padding: 0.6em 1.2em;
+font-size: 1em;
+font-weight: 500;
+font-family: inherit;
+background-color: #1a1a1a;
+cursor: pointer;
+transition: border-color 0.25s;
+
+}
+
+button:hover {
+border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+outline: 4px auto -webkit-focus-ring-color;
+}}
+
